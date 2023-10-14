@@ -269,9 +269,6 @@ usp3_events = full_events[full_events['exchange'] == 'usp3'].copy()
 # Table 3.5
 usp3_events['pool_name'].value_counts().head(10)
 
-# 
-usp3_events['pool_name'].value_counts().head(10).sum()
-
 # Daily mints and burns DataFrames for USDC-WETH-0.0005 and USDC-WETH-0.003
 usdc_weth_5_events = extract_daily_events("full_liquidity_events", "USDC-WETH-0.0005")
 usdc_weth_30_events = extract_daily_events("full_liquidity_events", "USDC-WETH-0.003")
