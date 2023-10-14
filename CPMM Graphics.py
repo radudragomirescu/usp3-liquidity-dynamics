@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#plot style
+# Plot style
 sns.set_style("darkgrid")
 
-# Creates a toy example displaying the price impact of a trade in a CPMM mechanism
+# Create a toy example displaying the price impact of a trade in a CPMM mechanism
 def plot_CPMM_example():
     # Liquidity constant
     L = 10 
