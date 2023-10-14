@@ -28,7 +28,7 @@ from scipy.stats import gaussian_kde
 from scipy.stats import entropy
 
 
-""" Model Evaluation Setup """
+""" Classification Model Evaluation Setup """
 
 # Create DataFrames for Pools 5 and 30
 usdc_weth_5 = pd.read_csv("usdc_weth_5_final.csv")
@@ -131,7 +131,7 @@ y_pers_30_main = X_test_30_main['type_mint'].apply(lambda x: 'mint' if x == 1 el
 y_pers_30_other = X_test_30_main.apply(get_pers_other, axis=1).values
 
 
-""" Model Evaluation Plots & Tables """
+""" Classification Model Evaluation Plots & Tables """
 
 # Tables 6.1 and 6.4 (Persistence Accuracy)
 print(accuracy_score(y_test_5_main, y_pers_5_main))
