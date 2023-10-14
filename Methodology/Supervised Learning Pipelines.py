@@ -12,7 +12,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.model_selection import GridSearchCV, TimeSeriesSplit, train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler, PowerTransformer
 from sklearn.pipeline import Pipeline
-# Classification models 
+# Classification methods 
 from sklearn.linear_model import LogisticRegression, RidgeClassifier
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
@@ -22,7 +22,7 @@ from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
-# Regression models
+# Regression methods
 from sklearn.linear_model import Ridge, Lasso, ElasticNet
 from sklearn.kernel_ridge import KernelRidge 
 from sklearn.svm import SVR 
