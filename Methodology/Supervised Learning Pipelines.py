@@ -1,15 +1,13 @@
 # Required libraries
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt 
-import seaborn as sns
 import math
 import time
 import random
 from scipy.stats import uniform, loguniform, randint, norm
 from sklearn.metrics import accuracy_score, mean_squared_error
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.model_selection import GridSearchCV, TimeSeriesSplit, train_test_split, RandomizedSearchCV
+from sklearn.model_selection import TimeSeriesSplit, train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler, PowerTransformer
 from sklearn.pipeline import Pipeline
 # Classification methods 
