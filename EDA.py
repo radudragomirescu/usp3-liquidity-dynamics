@@ -48,7 +48,7 @@ def plot_reference_info(categ, title):
     # X-axis tick label font size
     ax.tick_params(axis='x', labelsize=14)
 
-    # Dertical adjustment for the annotations
+    # Vertical adjustment for the annotations
     vertical_adjustment = 5  
 
     # Add counts above each bar 
