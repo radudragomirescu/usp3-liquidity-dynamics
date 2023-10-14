@@ -482,7 +482,7 @@ ada = AdaBoostRegressor(loss='square', random_state=rng)
 ada_param_grid = {
     'regr__n_estimators': randint(30, 150),
     # Use estimator instead of base_estimator if sklearn > version 1.4
-    #'regr__estimator': [None, DecisionTreeRegressor(max_depth = 8)],
+    #'regr__estimator': [None, DecisionTreeRegressor(max_depth = 5)],
     'regr__base_estimator': [None, DecisionTreeRegressor(max_depth = 5)]
 }
 
