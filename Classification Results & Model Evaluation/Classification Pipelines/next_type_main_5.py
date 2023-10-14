@@ -353,7 +353,7 @@ def prediction_results_clf(X_test, y_test, X_train_val, y_train_val, training_re
 # Create training/validation and test splits for targeting next_type_main in Pool 5
 X_train_val_5_main, X_test_5_main, y_train_val_5_main, y_test_5_main = process_dataframe_clf(usdc_weth_5, "next_type_main")
 
-# Apply fit_model_clf for all methods and creates a DataFrame with cross-validation results
+# Apply fit_model_clf for all methods and create a DataFrame with cross-validation results
 trained_models_5_main = individual_training_clf(X_train_val_5_main, y_train_val_5_main)
 
 # Inspect cross-validation results
