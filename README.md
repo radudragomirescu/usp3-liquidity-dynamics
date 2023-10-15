@@ -1,2 +1,2 @@
 # usp3-liquidity-dynamics
-MSc Statistical Science dissertation code
+MSc Statistical Science dissertation code. Files are grouped by chapter and often by task within a chapter to limit length and computational load. As much code as possible is written in functions/classes to achieve extensibility and modularity. All functions/classes and commands outside them are commented to convey their purpose, and the code which creates any Figure or Table is signposted. 
