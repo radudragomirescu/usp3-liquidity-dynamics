@@ -185,7 +185,7 @@ def plot_confusion_matrices(y_test, y_pred, labels=["burn", "mint"], title=None)
 # Figure 6.2
 plot_confusion_matrices(y_test_5_main, y_pred_5_main, title = "Confusion Matrices for next_type_main (Main Pool: 5)")
 
-# Figure 6.6
+# Figure 6.5
 plot_confusion_matrices(y_test_5_other, y_pred_5_other, title = "Confusion Matrices for next_type_other (Main Pool: 5)")
 
 # Figure 6.8
@@ -307,7 +307,7 @@ def plot_class_dists(y_test_pred, y_test, y_train_pred, y_train, title='Class Di
 # Figure 6.1
 plot_class_dists(y_pred_5_main, y_test_5_main, y_train_pred_5_main, y_train_val_5_main, title="Marginal Distributions of next_type_main (Main Pool: 5)")
 
-# Figure 6.5 
+# Figure 6.4 
 plot_class_dists(y_pred_5_other, y_test_5_other, y_train_pred_5_other, y_train_val_5_other, title="Marginal Distributions of next_type_other (Main Pool: 5)")
 
 # Figure 6.7
@@ -352,19 +352,19 @@ def plot_permutation_importance(model, X_test, y_test, title="Permutation Import
     plt.tight_layout()
     plt.show()
 
-# Figure 6.4a
+# Figure 6.6a
 plot_permutation_importance(model_5_main, X_test_5_main, y_test_5_main,
                             title = 'Feature Permutation Importance for Classifying next_type_main (Main Pool: 5)')
 
-# Figure 6.4b
+# Figure 6.6b
 plot_permutation_importance(model_5_other, X_test_5_other, y_test_5_other,
                             title = 'Feature Permutation Importance for Classifying next_type_other (Main Pool: 5)')
 
-# Figure 6.4c
+# Figure 6.6c
 plot_permutation_importance(model_30_main, X_test_30_main, y_test_30_main,
                             title = 'Feature Permutation Importance for Classifying next_type_main (Main Pool: 30)')
 
-# Figure 6.4d
+# Figure 6.6d
 plot_permutation_importance(model_30_other, X_test_30_other, y_test_30_other,
                             title = 'Feature Permutation Importance for Classifying next_type_other (Main Pool: 30)')
 
