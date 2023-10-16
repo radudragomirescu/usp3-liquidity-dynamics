@@ -294,18 +294,18 @@ def plot_permutation_importance(model, X_test, y_test, title="Permutation Import
     plt.tight_layout()
     plt.show()
 
-# Figure 7.17a
+# Figure 7.9a
 plot_permutation_importance(model_5_mint_main, X_test_5_mint_main, y_test_5_mint_main,
                             title = 'Feature Permutation Importance for Predicting next_mint_time_main (Main Pool: 5)')
 
-# Figure 7.17b
+# Figure 7.9b
 plot_permutation_importance(model_5_burn_main, X_test_5_burn_main, y_test_5_burn_main,
                             title = 'Feature Permutation Importance for Predicting next_burn_time_main (Main Pool: 5)')
 
-# Figure 7.17c
+# Figure 7.9c
 plot_permutation_importance(model_5_mint_other, X_test_5_mint_other, y_test_5_mint_other,
                             title = 'Feature Permutation Importance for Predicting next_mint_time_other (Main Pool: 5)')
 
-# Figure 7.17d
+# Figure 7.9d
 plot_permutation_importance(model_5_burn_other, X_test_5_burn_other, y_test_5_burn_other,
                             title = 'Feature Permutation Importance for Predicting next_burn_time_other (Main Pool: 5)')
