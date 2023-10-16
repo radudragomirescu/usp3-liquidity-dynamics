@@ -177,19 +177,19 @@ def plot_marginal_dists(y_train, y_train_pred, y_test, y_pred, title="Marginal D
 
     plt.show()
 
-# Figure 7.9
+# Figure 7.10
 plot_marginal_dists(y_train_val_30_mint_main, y_train_pred_30_mint_main, y_test_30_mint_main, y_pred_30_mint_main,
                    title="Marginal Distributions of next_mint_time_main (Main Pool: 30)")
 
-# Figure 7.11
+# Figure 7.12
 plot_marginal_dists(y_train_val_30_burn_main, y_train_pred_30_burn_main, y_test_30_burn_main, y_pred_30_burn_main,
                    title="Marginal Distributions of next_burn_time_main (Main Pool: 30)")
 
-# Figure 7.13
+# Figure 7.14
 plot_marginal_dists(y_train_val_30_mint_other, y_train_pred_30_mint_other, y_test_30_mint_other, y_pred_30_mint_other,
                    title="Marginal Distributions of next_mint_time_other (Main Pool: 30)")
 
-# Figure 7.15
+# Figure 7.16
 plot_marginal_dists(y_train_val_30_burn_other, y_train_pred_30_burn_other, y_test_30_burn_other, y_pred_30_burn_other,
                    title="Marginal Distributions of next_burn_time_other (Main Pool: 30)")
 
@@ -246,19 +246,19 @@ def plot_prediction_error(y_test, y_pred, title = "Regression Performance Evalua
     plt.tight_layout()
     plt.show()
 
-# Figure 7.10
+# Figure 7.11
 plot_prediction_error(y_test_30_mint_main, y_pred_30_mint_main, 
                      title="Prediction Error Analysis for next_mint_time_main (Main Pool: 30)")
 
-# Figure 7.12
+# Figure 7.13
 plot_prediction_error(y_test_30_burn_main, y_pred_30_burn_main, 
                      title="Prediction Error Analysis for next_burn_time_main (Main Pool: 30)")
 
-# Figure 7.14
+# Figure 7.15
 plot_prediction_error(y_test_30_mint_other, y_pred_30_mint_other, 
                      title="Prediction Error Analysis for next_mint_time_other (Main Pool: 30)")
 
-# Figure 7.16
+# Figure 7.17
 plot_prediction_error(y_test_30_burn_other, y_pred_30_burn_other, 
                      title="Prediction Error Analysis for next_burn_time_other (Main Pool: 30)")
 
